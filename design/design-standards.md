@@ -1,6 +1,6 @@
 # Design Standards (Phase II, Part 3)
 
-Project: Productivity/Organizational App (schedule, appointments, and turning meeting recordings into text)
+Project: PlanX, a Productivity/Organizational App (tasks, schedule, and turning meeting recordings into text). Team: Goofy Goobers
 Platform: Android (React Native + Expo)
 Status: First draft. We will go over it as a team and lock it by Nov 5.
 
@@ -147,7 +147,7 @@ The smallest text size is 13. We should not lock the font size, so the app follo
 - **Colour:** the foreground token by default, onPrimary on filled buttons
 - **Rule:** do not mix icon libraries. If an icon is missing, use the closest Phosphor icon or draw a custom one at 24px with a 2px stroke and rounded ends
 
-Which icon goes with which screen (starter list): Calendar `CalendarBlank`, Tasks `CheckSquare`, Record `Microphone`, Transcripts `Notepad`, Settings `Gear`, Add `Plus`, Suggestions `Sparkle`
+Which icon goes with which screen (starter list). The four bottom tabs match our architecture document: Schedule `CalendarBlank`, Tasks `CheckSquare`, Record `Microphone`, Settings `Gear`. Other icons used inside screens: Transcripts `Notepad`, Add `Plus`, Suggestions `Sparkle`
 
 ## 8. Motion
 
@@ -164,9 +164,9 @@ Which icon goes with which screen (starter list): Calendar `CalendarBlank`, Task
 
 ## 10. App Identity (our team still has to decide)
 
-- App name: not chosen yet (ticket: Title application)
-- Logo: the name in Lilita One on a Grape or Lime sticker shape with a paint splat
-- Launch screen: Grape background, the name, and a small splat animation (ticket: Start application)
+- App name: **PlanX** (chosen in Phase 1, ticket: Title application)
+- Logo: the PlanX wordmark in Lilita One on a Grape or Lime sticker shape with a paint splat
+- Launch screen: Grape background, the PlanX wordmark, and a small splat animation (ticket: Start application)
 - Android adaptive icon: 432 x 432 canvas, with the logo inside the centre 264 x 264 safe zone
 
 ## 11. Asset Organization
@@ -263,8 +263,8 @@ export const shadowHard = { x: 3, y: 3 };
 - [x] Colour blindness test done (Section 14)
 - [ ] Check the colours on a real Android phone, in sunlight and with the screen at low brightness
 - [ ] Run the checks again if any hex colour changes
-- [ ] Pick the app name
-- [ ] Draw the logo (original, nothing from any franchise)
+- [x] App name chosen in Phase 1: PlanX
+- [ ] Draw the PlanX logo (original, nothing from any franchise)
 - [ ] Confirm the icon library with Raina (she needs it before her final mockups)
 - [ ] Copy the standards into `/design` in the repo and link them on the Kanban tickets
 
