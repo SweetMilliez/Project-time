@@ -25,3 +25,7 @@ We used AI (Claude) to help make the PlanX logo, launch screen, app icon and emp
 - Looked at every file on light, dark and Grape backgrounds
 - Nothing copies an existing character, logo or picture
 - Edited and approved by the team before use (team to confirm)
+
+## Update: recording and voice hint in the logo
+
+We asked for a small hint of the recording and voice feature in the logo. The X now has a small red record button (Tomato `#FF4B4B` dot) at its top right with two curved sound waves next to it, like a voice recording light. It is in the wordmark logos, the mark, the app icon, the adaptive icon and the launch screen. The pink splat in the logo was changed to Aqua so the red dot is the only red thing.
