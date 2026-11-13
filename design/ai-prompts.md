@@ -24,7 +24,7 @@ We used AI (Claude) to help make the PlanX logo, launch screen, app icon and emp
 
 - Looked at every file on light, dark and Grape backgrounds
 - Nothing copies an existing character, logo or picture
-- Edited and approved by the team before use (team to confirm)
+- Edited and approved by the team before use (Confirmed by Yassine, Raina and Millie)
 
 ## Update: recording and voice hint in the logo
 
